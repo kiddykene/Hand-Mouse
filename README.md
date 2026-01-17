@@ -9,4 +9,6 @@ Most of the work done for this project is under under the process_frame function
 
 This project features homography for mapping the position of my finger tip to screen coordinates, and thin plate spline for appying better warping in raw mode (aka gaming mode).
 
+written in python 3.10
+
 I am so tired
