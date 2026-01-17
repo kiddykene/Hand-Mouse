@@ -398,7 +398,7 @@ class Logic:
         return best
     
     def process_frame(self, screen_w, screen_h):
-        '''this is where everything happens'''
+        """this is where everything happens"""
         if not hasattr(self.camera, "cap") or self.camera.cap is None or not getattr(self.camera.cap, "isOpened", lambda: False)():
             ok = self.camera.set_camera(0)
             if not ok:
@@ -1055,4 +1055,5 @@ class Logic:
         self.initial_hand_span = None
         self.smoothed_pos = None
         self.move_to = (0.0, 0.0)
+
         print("Calibration reset, press the keybind to start again")
